@@ -10,12 +10,12 @@ h1 {
   color: white;
   border-radius: 3px;
   padding: 3px 10px;
-  margin-right: 4px;
+  /* margin-right: 4px; */
 }
 
 /* Image Container */
 .imageContainer {
-  height: 60vh;
+  height: 70vh;
 }
 
 /* Landing Container */

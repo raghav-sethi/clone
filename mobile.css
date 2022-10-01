@@ -1,0 +1,123 @@
+h1 {
+  font-size: 32px;
+}
+.navbar select {
+  padding: 1px 2px;
+  margin-right: 13px;
+}
+.navbar button {
+  background-color: #e50914;
+  color: white;
+  border-radius: 3px;
+  padding: 3px 10px;
+}
+
+/* Image Container */
+.imageContainer {
+  height: 60vh;
+}
+
+/* Landing Container */
+.landingContentContainer {
+  top: 150px;
+}
+.landingHeading3 {
+  font-size: 20px;
+}
+.landingPara {
+  margin-bottom: 0%;
+}
+.landingContentContainer form,
+.FAQsCard div form {
+  width: 90vw;
+}
+.landingContentContainer form input,
+.FAQsCard div form input {
+  width: 90vw;
+  margin-bottom: 15px;
+}
+.landingContentContainer button,
+.FAQsCard div button {
+  font-size: 18px;
+  border-radius: 2px;
+  width: 48vw;
+  margin: auto;
+  padding: 10px 0px;
+}
+.landingContentContainer h2 {
+  font-size: 26px;
+  font-weight: 700;
+}
+.navbar-flex {
+  display: flex;
+  padding-right: 0px;
+}
+.getStartedForm {
+  flex-direction: column;
+}
+
+/* Card Styles */
+.Card {
+  padding: 50px 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.Card div h2 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.Card div h4 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.Card img {
+  width: 85vw;
+}
+
+/* Floating Image */
+.floatingImageCard {
+  /* top: 360px; */
+  top: 230px;
+  left: 45px;
+  height: 70px;
+  width: 320px;
+}
+.floatingImageCard img {
+  width: 40px;
+}
+.floatingImageCard div {
+  padding-left: 15px;
+  padding-top: 2px;
+}
+.floatingImageCard div h6 {
+  font-size: 16px;
+  margin-bottom: 0%;
+}
+
+/* FAQ Container */
+.FAQReadyPara {
+  font-size: 140px;
+}
+.FAQsCard {
+  padding-top: 10px;
+}
+.FAQsCard .h2Container h2 {
+  font-size: 27px;
+  font-weight: 600;
+  width: 95vw;
+}
+.FAQCard {
+  width: 95vw;
+}
+.FAQToggleCard {
+  width: 95vw;
+}
+
+/* Footer Card */
+.footerCard {
+  text-align: left;
+}

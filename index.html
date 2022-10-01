@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix India - Watch TV Shows Online, Watch Movies Online</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://kit.fontawesome.com/967dbdce82.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 480px)"
+      href="./mobile.css"
+    />
+  </head>
+  <body>
+    <!-- Landing Container -->
+    <div class="landingContainer">
+      <div class="imageContainer"></div>
+      <nav class="navbar row">
+        <div class="col">
+          <h1>Netflix</h1>
+        </div>
+
+        <div class="navbar-flex col text-end">
+          <select name="lang" id="lang">
+            <option value="eng">
+              <i class="fa-solid fa-globe"></i>
+              <!-- &#xf0ac; -->
+              English
+            </option>
+            <option value="hin">
+              <i class="fa-solid fa-globe"></i>
+              <!-- &#xf1ab; -->
+              Hindi
+            </option>
+          </select>
+          <button type="button">Sign In</button>
+        </div>
+      </nav>
+      <!-- Landing Content -->
+      <div class="landingContentContainer">
+        <div class="addingContainer">
+          <h2 class="landingHeading1">Unlimited movies, TV</h2>
+          <h2 class="landingHeading2">shows and more.</h2>
+          <h4 class="landingHeading3">Watch anywhere. Cancel anytime.</h4>
+          <p class="landingPara">
+            Ready to watch? Enter your email to create or restart your
+            membership.
+          </p>
+        </div>
+        <!-- Get Started Form  -->
+        <form action="">
+          <div class="form-floating mb-3 getStartedForm">
+            <input
+              type="email"
+              class="form-control"
+              id="floatingInput"
+              placeholder="name@example.com"
+            />
+            <label for="floatingInput">Email address</label>
+            <button type="submit">
+              Get Started <i class="fa-solid fa-chevron-right"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- Card S.No. 1-->
+    <!-- TV Card -->
+    <div class="Card tvCard">
+      <div>
+        <h2>Enjoy on your TV.</h2>
+        <div class="h4Container">
+          <h4>Watch on smart TVs, PlayStation, Xbox,</h4>
+          <h4>Chromecast, Apple TV, Blu-ray players and</h4>
+          <h4>more.</h4>
+        </div>
+      </div>
+      <img src="Images/tv.png" />
+    </div>
+    <!-- Card S.No. 2-->
+    <!-- Mobile Card -->
+    <div class="Card mobileCard">
+      <img class="mobileImage" src="Images/mobile-0819.jpg" />
+      <div class="floatingImageCard">
+        <img src="./Images/boxshot.png" alt="" />
+        <div>
+          <h6>Stranger Things</h6>
+          <p>Downloading...</p>
+        </div>
+        <p>
+          <i class="fa-solid fa-arrow-down-to-line fa-xl"></i>
+        </p>
+      </div>
+      <div class="mobileContent">
+        <h2>Download your shows</h2>
+        <h2>to watch offline.</h2>
+        <div class="h4Container">
+          <h4>Save your favourites easily and always have</h4>
+          <h4>something to watch.</h4>
+        </div>
+      </div>
+    </div>
+    <!-- Card S.No. 3-->
+    <!-- Device Pile In Card -->
+    <div class="Card devicesCard">
+      <div>
+        <h2>Watch everywhere.</h2>
+        <div class="h4Container">
+          <h4>Stream unlimited movies and TV shows on</h4>
+          <h4>your phone, tablet, laptop, and TV.</h4>
+        </div>
+      </div>
+      <img src="Images/device-pile-in.png" />
+    </div>
+    <!-- Card S.No. 4-->
+    <!-- Children Card -->
+    <div class="Card childrenCard">
+      <img
+        class="childrenImage"
+        src="Images/AAAABYjXrxZKtrzxQRVQNn2aIByoomnlbXmJ-uBy7du8a5Si3xqIsgerTlwJZG1vMpqer2kvcILy0UJQnjfRUQ5cEr7gQlYqXfxUg7bz.png"
+      />
+      <div>
+        <h2>Create profiles for</h2>
+        <h2>children.</h2>
+        <div class="h4Container">
+          <h4>Send children on adventures with their</h4>
+          <h4>favourite characters in a space made just for</h4>
+          <h4>them—free with your membership.</h4>
+        </div>
+      </div>
+    </div>
+    <!-- Card S.No. 5-->
+    <!-- FAQ's Card -->
+    <div class="Card FAQsCard">
+      <div class="h2Container">
+        <h2>Frequently Asked Questions</h2>
+      </div>
+      <div class="FAQContainer">
+        <div id="FAQCard1" class="FAQCard">
+          <h4>What is Netfix?</h4>
+          <!-- <i class="fa-solid fa-plus"></i> -->
+          <i class="fa-light fa-plus fa-3x plusIcon"></i>
+        </div>
+        <div id="FAQCard1Toggle" class="FAQToggleCard hidden">
+          <p>
+            Netflix is a streaming service that offers a wide variety of
+            award-winning TV shows, movies, anime, documentaries and more – on
+            thousands of internet-connected devices.
+          </p>
+          <p>
+            You can watch as much as you want, whenever you want, without a
+            single ad – all for one low monthly price. There's always something
+            new to discover, and new TV shows and movies are added every week!
+          </p>
+        </div>
+        <div id="FAQCard2" class="FAQCard">
+          <h4>How much does Netflix cost?</h4>
+          <!-- <i class="fa-solid fa-plus"></i> -->
+          <i class="fa-light fa-plus fa-3x plusIcon"></i>
+        </div>
+        <div id="FAQCard2Toggle" class="FAQToggleCard hidden">
+          <p>
+            Watch Netflix on your smartphone, tablet, Smart TV, laptop, or
+            streaming device, all for one fixed monthly fee. Plans range from ₹
+            149 to ₹ 649 a month. No extra costs, no contracts.
+          </p>
+        </div>
+        <div id="FAQCard3" class="FAQCard">
+          <h4>Where can i watch?</h4>
+          <!-- <i class="fa-solid fa-plus"></i> -->
+          <i class="fa-light fa-plus fa-3x plusIcon"></i>
+        </div>
+        <div id="FAQCard3Toggle" class="FAQToggleCard hidden">
+          <p>
+            Watch anywhere, anytime. Sign in with your Netflix account to watch
+            instantly on the web at netflix.com from your personal computer or
+            on any internet-connected device that offers the Netflix app,
+            including smart TVs, smartphones, tablets, streaming media players
+            and game consoles.
+          </p>
+          <p>
+            You can also download your favourite shows with the iOS, Android, or
+            Windows 10 app. Use downloads to watch while you're on the go and
+            without an internet connection. Take Netflix with you anywhere.
+          </p>
+        </div>
+        <div id="FAQCard4" class="FAQCard">
+          <h4>How do i cancel?</h4>
+          <!-- <i class="fa-solid fa-plus"></i> -->
+          <i class="fa-light fa-plus fa-3x plusIcon"></i>
+        </div>
+        <div id="FAQCard4Toggle" class="FAQToggleCard hidden">
+          <p>
+            Netflix is flexible. There are no annoying contracts and no
+            commitments. You can easily cancel your account online in two
+            clicks. There are no cancellation fees – start or stop your account
+            anytime.
+          </p>
+        </div>
+        <div id="FAQCard5" class="FAQCard">
+          <h4>What can i watch on Netflix?</h4>
+          <!-- <i class="fa-solid fa-plus"></i> -->
+          <i class="fa-light fa-plus fa-3x plusIcon"></i>
+        </div>
+        <div id="FAQCard5Toggle" class="FAQToggleCard hidden">
+          <p>
+            Netflix has an extensive library of feature films, documentaries, TV
+            shows, anime, award-winning Netflix originals, and more. Watch as
+            much as you want, anytime you want.
+          </p>
+        </div>
+        <div id="FAQCard6" class="FAQCard">
+          <h4>Is Netflix good for kids?</h4>
+          <!-- <i class="fa-solid fa-plus"></i> -->
+          <i class="fa-light fa-plus fa-3x plusIcon"></i>
+        </div>
+        <div id="FAQCard6Toggle" class="FAQToggleCard hidden">
+          <p>
+            The Netflix Kids experience is included in your membership to give
+            parents control while kids enjoy family-friendly TV shows and films
+            in their own space.
+          </p>
+          <p>
+            Kids profiles come with PIN-protected parental controls that let you
+            restrict the maturity rating of content kids can watch and block
+            specific titles you don’t want kids to see.
+          </p>
+        </div>
+        <div>
+          <p class="readyPara FAQReadyPara">
+            Ready to watch? Enter your email to create or restart your
+            membership.
+          </p>
+          <!-- Get Started Form  -->
+          <form action="">
+            <div class="form-floating mb-3 d-flex getStartedForm">
+              <input
+                type="email"
+                class="form-control"
+                id="floatingInput"
+                placeholder="name@example.com"
+              />
+              <label for="floatingInput">Email address</label>
+              <button type="submit">
+                Get Started <i class="fa-solid fa-chevron-right"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- Card S.No. 6-->
+    <!-- Footer Card -->
+    <div class="footerCard Card d-flex flex-column align-items-start">
+      <div>
+        <p class="questionsPara">
+          Questions? Call <a href="">000-800-040-1843</a>
+        </p>
+      </div>
+      <div class="footerLinks">
+        <div class="d-flex flex-row">
+          <div class="linkColumn d-flex flex-column">
+            <span><a href="">FAQ</a></span>
+            <span><a href="">Investor Relations</a></span>
+            <span><a href="">Privacy</a></span>
+            <span><a href="">Speed Test</a></span>
+          </div>
+          <div class="linkColumn d-flex flex-column">
+            <span><a href="">Help Centre</a></span>
+            <span><a href="">Jobs</a></span>
+            <span><a href="">Cookie Preferences</a></span>
+            <span><a href="">Legal Notices</a></span>
+          </div>
+          <div class="linkColumn d-flex flex-column">
+            <span><a href="">Account</a></span>
+            <span><a href="">Ways to Watch</a></span>
+            <span><a href="">Corporate Information</a></span>
+            <span><a href="">Only on Netflix</a></span>
+          </div>
+          <div class="linkColumn d-flex flex-column">
+            <span><a href="">Media Centre</a></span>
+            <span><a href="">Terms of Use</a></span>
+            <span><a href="">Contact Us</a></span>
+          </div>
+        </div>
+      </div>
+      <div>
+        <select class="me-4" name="lang" id="lang">
+          <option value="eng">
+            <i class="fa-solid fa-globe"></i>
+            <!-- &#xf0ac; -->
+            English
+          </option>
+          <option value="hin">
+            <i class="fa-solid fa-globe"></i>
+            <!-- &#xf1ab; -->
+            Hindi
+          </option>
+        </select>
+      </div>
+      <div>
+        <p class="companyNameFooter">Netflix India</p>
+      </div>
+    </div>
+    <!-- Script Tags -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./index.js"></script>
+  </body>
+</html>

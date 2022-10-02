@@ -234,6 +234,10 @@ h1 {
 .companyNameFooter {
   margin-top: 20px;
 }
+.groupingContainer {
+  display: flex;
+  flex-direction: row;
+}
 
 /* Utility Classes */
 .hidden {

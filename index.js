@@ -38,7 +38,7 @@ FAQCards.forEach((FAQCard) =>
   FAQCard.addEventListener("click", cardToggleHandler)
 );
 
-function myFunction(x, y) {
+function myFunction(x) {
   if (x.matches) {
     // If media query matches
     landingPara.textContent = "Ready to watch? Enter your email";
@@ -58,15 +58,13 @@ function myFunction(x, y) {
     // Card elements order changes
     // document.querySelector(".mobileImage").style.order = "2";
     // document.querySelector(".childrenImage").style.order = "2";
-  } else if (y.matches) {
+  } else {
     // document.querySelector(".mobileContent").style.order = "2";
     // document.querySelector(".childrenImage").style.order = "1";
   }
 }
 
 var x = window.matchMedia("(max-width: 480px)");
-var y = window.matchMedia("(min-width: 481px)");
 
-myFunction(x, y); // Call listener function at run time
+myFunction(x); // Call listener function at run time
 x.addEventListener(myFunction); // Attach listener function on state changes
-y.addEventListener(myFunction); // Attach listener function on state changes

@@ -1,54 +1,53 @@
 h1 {
-  font-size: 32px;
+  font-size: 45px;
 }
 .navbar select {
   padding: 4px 10px;
-  margin-right: 13px;
+  margin-right: 23px;
+  margin-left: 200px;
 }
 .navbar button {
-  background-color: #e50914;
-  color: white;
   border-radius: 3px;
-  padding: 3px 10px;
-  /* margin-right: 4px; */
+  padding: 4px 15px;
 }
 
 /* Image Container */
 .imageContainer {
-  height: 70vh;
+  height: 85vh;
 }
 
 /* Landing Container */
 .landingContentContainer {
-  top: 150px;
+  top: 250px;
+}
+.landingContentContainer h2 {
+  font-size: 46px;
+  font-weight: 700;
 }
 .landingHeading3 {
-  font-size: 20px;
+  font-size: 30px;
 }
 .landingPara {
   margin-bottom: 0%;
 }
 .landingContentContainer form,
 .FAQsCard div form {
-  width: 90vw;
+  width: 60vw;
 }
 .landingContentContainer form input,
 .FAQsCard div form input {
-  width: 90vw;
+  width: 60vw;
   margin-bottom: 15px;
 }
 .landingContentContainer button,
 .FAQsCard div button {
   font-size: 18px;
   border-radius: 2px;
-  width: 48vw;
+  width: 18vw;
   margin: auto;
   padding: 10px 0px;
 }
-.landingContentContainer h2 {
-  font-size: 26px;
-  font-weight: 700;
-}
+
 .navbar-flex {
   display: flex;
   padding-right: 0px;
@@ -66,12 +65,12 @@ h1 {
   text-align: center;
 }
 .Card div h2 {
-  font-size: 30px;
+  font-size: 45px;
   font-weight: 600;
   margin-bottom: 0px;
 }
 .Card div h4 {
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 400;
   margin-bottom: 0;
 }
@@ -82,17 +81,17 @@ h1 {
 /* Floating Image */
 .floatingImageCard {
   /* top: 360px; */
-  top: 230px;
-  left: 45px;
-  height: 70px;
-  width: 320px;
+  top: 460px;
+  left: 250px;
+  height: 100px;
+  width: 440px;
 }
 .floatingImageCard img {
-  width: 40px;
+  width: 70px;
 }
 .floatingImageCard div {
-  padding-left: 15px;
-  padding-top: 2px;
+  padding-left: 25px;
+  padding-top: 15px;
 }
 .floatingImageCard div h6 {
   font-size: 16px;
@@ -112,10 +111,10 @@ h1 {
   width: 95vw;
 }
 .FAQCard {
-  width: 95vw;
+  width: 80vw;
 }
 .FAQToggleCard {
-  width: 95vw;
+  width: 80vw;
 }
 .footerCard select {
   padding: 4px 10px;
